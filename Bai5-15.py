@@ -13,5 +13,5 @@
 for x in range(21):
     for y in range(33):
         z = 100 - x - y
-        if z >= 0 and 5*x + 3*y + z/3 == 100:
+        if x> 0 and z >= 0 and 5*x + 3*y + z/3 == 100:
             print(f"Số trâu đứng: {x}, Số trâu nằm: {y}, Số trâu già: {z}")
